@@ -328,13 +328,18 @@ body {
   line-height: 1.5;
   color: var(--heading-title-color);
 }
-.footer-messenger {
+.footer-flex {
   display: flex;
+}
+.footer-desc {
+  margin-right: 120px;
+}
+
+.footer-icon-title {
+  margin-bottom: 16px;
 }
 .messenger-footer-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .messenger-footer-link {
   width: 100%;
