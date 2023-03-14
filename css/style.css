@@ -319,10 +319,6 @@ body {
 .messenger-link:is(:hover, :focus) {
   background: var(--text-hover-header);
 }
-
-.section-paragraph {
-  margin-bottom: 8px;
-}
 .company-list {
   display: flex;
   gap: 24px;
@@ -428,8 +424,6 @@ body {
 }
 .messenger-footer-list {
   display: flex;
-  
-  
 }
 .messenger-footer-link {
   width: 100%;
@@ -438,14 +432,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .messenger-footer-item {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-
 }
 .messenger-footer-item:not(:last-child) {
   margin-right: 16px;
